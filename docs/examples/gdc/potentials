@@ -1,0 +1,13 @@
+cutoff 14.0
+species 3
+O 16.0 -2.0
+Gd 91.08 3.0 
+Ce 91.22 4.0
+twobody 3 ev ev
+buck 
+Gd O 1885.75 0.3399 20.34 
+buck 
+Ce O 1809.68 0.3547 20.40 
+buck 
+O O 9547.96 0.2192 32.0 
+close

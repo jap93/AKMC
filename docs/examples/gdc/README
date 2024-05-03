@@ -1,0 +1,2 @@
+execute with :
+mpirun -np 6 search.x

@@ -1,0 +1,13 @@
+build
+test_progs
+CMakeFiles
+Makefile
+make.bat
+docs/docs/build/*
+CMakeCache.txt
+.gitignore.swp
+Makefile
+search.x
+TODO.txt
+cmake_install.cmake
+.vscode

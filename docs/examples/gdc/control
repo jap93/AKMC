@@ -1,0 +1,31 @@
+numgroups 5
+parentcores 1
+prerelax
+kmc{
+kmctemperature 1000
+prefactor 1.0e13
+kmcsteps 2
+kmcevents 5
+mincap 0.1
+window 50
+kmcbasinradius 0.5
+writeevents
+target local  10.0
+}
+art{
+numvectors 25
+initialdisplacement 0.03
+timestep 0.0005
+maxstep 0.00200
+alpha 0.1
+forcetol 1.0e-2
+damp 0.25
+}
+relax{
+forcetol 1.0e-3
+timestep 0.0005
+maxstep 0.00100
+alpha 0.1
+debug
+}
+close
